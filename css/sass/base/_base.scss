@@ -28,6 +28,15 @@ body {
 	}		
 	
 }
+body.rent{
+	.first-color {
+		color : $rent;
+	}
+	.first-back{
+		background-color: $rent;
+		color : $white;
+	}
+}
 .body-inner{
 	background-color: $grey1;
 }

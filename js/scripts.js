@@ -24,8 +24,13 @@ jQuery(document).ready(function($){
 		autoplay: false
 	});
 
+   
+
    $( "#accordion" ).accordion({
-      collapsible: true
+      collapsible: true,
+      active: false,
+      autoHeight: false,
+      heightStyle: "content",
     });
 
 	$('a#menu-toggler').click(function(){

@@ -71,18 +71,34 @@ margin-bottom : 30px;
 		padding : 10px;
 		&.accordion{
 			padding:0px;
-			.ui-accordion-header{
-				background-color: $rent;
-				color : $white;
+			.ui-widget-content {
+			    background: none;
+			    background-color: $rent;
+			    @include border-radius(0px);
+			    border : 0px;
+			    fillSpace: true;
+			}
+			.ui-accordion-header,.ui-state-active{
+				background : none;
+				@extend .first-back;
+				// background-color: $rent !important;
+				// color : $white;
 				padding : 15px 10px;
 				border : 0px;
-				border-bottom : 1px solid $white;
+				margin-top: -1px;
+				outline : none;
+				border-top : 1px solid $white;
+
+				font-weight: normal;
 				@include border-radius(0px);
-				&:last-child{
+				&:first-child{
 					border: 0px;
 				}
 				i{
 					margin-right : 20px;
+				}
+				.ui-state-active{
+					border : 0px;
 				}
 			}
 		}
@@ -93,15 +109,55 @@ margin-bottom : 30px;
 			}
 		}
 		.user-meta{
-			@include span-columns(8 omega,12);	
+			padding : 5px;
+			padding-top : 0px;
+			@include span-columns(8 omega,12);
+			strong{
+				font-weight: normal;
+				font-size : 110%;
+			}	
+			span{
+				color : $grey3;
+				font-size : 90%;
+			}
+			.blue-back{
+				background-color: $blue2;
+				color : $white;
+				@include border-bottom-left-radius(10px);
+				font-weight : bold;
+				padding : 6px 10px;
+				font-size: 110%;
+				margin-top : 5px;
+				display: inline-block;
+			}
+			.red-back{
+				background-color: darken($red , 5%);
+				color : $white;
+				@include border-top-right-radius(10px);
+				font-weight : bold;
+				padding : 6px 10px;
+				font-size: 110%;
+				margin-top : 5px;
+				display: inline-block;
+
+
+
+			}
+			.meta-blue{
+				font-size : 60%;
+				color : $blue;
+			}
+			.meta-red{
+				@extend .first-color;
+				font-size : 60%;
+
+			}
 		}
 
 
 	}
 }
-.rent aside.widget.accordion{
 
-}
 .properties{
 	h3{
 		text-align : center;
