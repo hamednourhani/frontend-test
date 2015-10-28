@@ -33,25 +33,13 @@ jQuery(document).ready(function($){
       heightStyle: "content",
     });
 
+   	var responsive_container = $('nav#header-nav');
 	$('a#menu-toggler').click(function(){
-		console.log('click on menu toggler');
-		var responsive_container = $('div#responsive-menu');
-		var close_button = responsive_container.children('a#close-responsive');
-		var body_wrapper = $('.body-wrapper');
-		var menu_height = $(window).height();
-		responsive_container.css('height',menu_height).addClass('show-menu');
+		
+		responsive_container.slideToggle();
 		
 
-		close_button.click(function(event){
-			//event.stopPropagination();
-			responsive_container.removeClass('show-menu');
-		});
-
-		// body_wrapper.click(function(event){
-		// 	event.stopPropagination();
-		// 	responsive_container.removeClass('show-menu');
-
-		// });
+		
 	});
 	
 });	

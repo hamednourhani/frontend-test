@@ -1,10 +1,12 @@
 .site-header{
 	width : 100%;
+	min-height: 61px;
 	background-color: $navy;
 	div.logo-wrapper{
-		@include at-breakpoint($medium){
-			@include span-columns(6 ,12)
-		}
+		text-align: center;
+		@include span-columns(12 ,12);
+		
+		
 		 span{
 			background-color: $navy2;
 			color : $white;
@@ -12,14 +14,44 @@
 			padding : 4px 10px;
 			display : inline-block;
 			margin-top : 15px;
+			font-size: 100%;
 			
-			font-size : 120%;
+			
+		}
+		@include at-breakpoint($medium){
+			@include span-columns(4 ,12);
+			
+		}
+		@include at-breakpoint($larg){
+			
+			span{
+				font-size : 120%;
+			}
+		}
+		a.menu-toggler{
+			padding: 15px 10px;
+			display : inline-block;
+			text-align: right;
+			color : $white;
+			@include span-columns(4 omega,12);
+			@include at-breakpoint($medium){
+				
+				display : none;
+			}
+			i:before{
+				border : 1px solid $navy2;
+				font-size : 180%;
+				padding: 5px 10px;
+				cursor: pointer;
+			}
 		}
 	}
+
 	nav.header-nav{
-		@include at-breakpoint($medium){
-			@include span-columns(6 omega,12)
-		}
+		
+		@include span-columns(12,12);
+		display : none;
+		
 		font-size : 90%;
 		text-align : right;
 		ul{
@@ -28,9 +60,9 @@
 				@include single-transition(all ,0.3s, ease-in-out);
 				color : $white;
 				padding : 15px 8px;
-				display : inline-block;
+				display : list;
 				border-bottom : 4px solid $navy2;
-				border-right : 1px solid $navy2;
+				border-right : 1px solid darken($navy2,15%);
 				cursor : pointer;
 				margin-left: -4px;
 				&:last-child{
@@ -53,6 +85,13 @@
 				}
 
 			}
+		}
+		@include at-breakpoint($medium){
+			@include span-columns(8 omega,12);
+			ul li{
+				display : inline-block;
+			}
+			display : inline-block;
 		}
 	}
 }

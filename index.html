@@ -23,8 +23,10 @@
 									
 					<div class="logo-wrapper">
 						<span>Company Name & Logo</span>
+						<a id="menu-toggler" class="menu-toggler"><i class="fa fa-bars"></i></a>
 					</div>
-					<nav class="header-nav">
+					
+					<nav id="header-nav" class="header-nav">
 						<ul>
 							<li class="rent-back">BUY</li>
 							<li class="bottom-green">RENT</li>
@@ -99,16 +101,17 @@
 
 							<article>
 								<div class="property-desc">PROPERTY DESCRIPTION</div>
-								<div class="ref">REF : <span class="ref-no"></span></div>
+								<div class="ref">REF : <span class="ref-no">F4-R-163</span></div>
 								<div class="article-body">
-									<p>DUBAI - AL BARARI - AL BARARI VILLA<P>
-									<h3 class="article-title">Elite & Luxurious, 'The Reserve Villa' at 'AL BARARI' </h3>
+									<span class="before-title">DUBAI - AL BARARI - AL BARARI VILLA</span>
+									<h2 class="article-title">Elite & Luxurious, 'The Reserve Villa' at 'AL BARARI' </h2>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, sapiente exercitationem enim numquam, ad ipsum doloremque. Architecto dignissimos labore perspiciatis.</p>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sequi inventore, consectetur ut saepe animi atque? Consectetur cumque accusamus cupiditate saepe, error sapiente unde in, porro enim ipsam. Adipisci, eligendi aliquid cupiditate molestias corrupti suscipit, unde corporis exercitationem enim quis alias dolor vero placeat fugit, facere quae quo culpa iure.</p>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sequi inventore, consectetur ut saepe animi atque? Consectetur cumque accusamus cupiditate saepe, error sapiente unde in, porro enim ipsam. Adipisci, eligendi aliquid cupiditate molestias corrupti suscipit, unde corporis exercitationem enim quis alias dolor vero placeat fugit, facere quae quo culpa iure.</p>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel sequi inventore, consectetur ut saepe animi atque? Consectetur cumque accusamus cupiditate saepe, error sapiente unde in, porro enim ipsam. Adipisci, eligendi aliquid cupiditate molestias corrupti suscipit, unde corporis exercitationem enim quis alias dolor vero placeat fugit, facere quae quo culpa iure.</p>
 									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni, maiores.</p>
-									<table>
+									<h4 class="listing-title">LISTING SUMMERY</h4>
+									<table class="listing-table">
 										<tbody>
 											<tr>
 												<td>Refrence<br /><strong>TRA01</strong><td>
@@ -146,9 +149,9 @@
 								</div>
 								<div class="user-meta">
 									<strong>Jennifer Doe</strong><br />
-									<span> The Reserve Agency LLC</span><br />
-									<span>Emmar Square</span><br />
-									<span>Downtown, Dubai, UAE</span><br />
+									<span class="meta-unit"> The Reserve Agency LLC</span>
+									<span class="meta-unit">Emmar Square</span>
+									<span class="meta-unit">Downtown, Dubai, UAE</span>
 									<span class="blue-back">LAND</span><span class="red-back">STERLING</span><br />
 									<small class="meta-blue">Charters survyors &</small><small class="meta-red">Property Consoltants</small>
 							</aside>
@@ -174,7 +177,7 @@
 									<h4><i class="fa fa-pencil-square-o"></i>MAKE AN OFFER</h4>
 									<div>
 										<form action="post">
-											<strong>Your Offer</strong>
+											<strong class="form-header">Your Offer</strong>
 											<input class="qty" name="qty" /><span class="qty-desc">AED/year</span>
 											<label>only serious and responsible offers will be considred by the broker</label>
 											<input name="name" type="text" placeholder="Full Name" />
@@ -187,13 +190,13 @@
 								</div>
 							</aside>
 
-							<span>ADVERTISEMENT</span>
+							<span class="add-title">ADVERTISEMENT</span>
 
-							<aside class="widget">
+							<aside class="widget add-widget">
 								<div class="ad-placeholder">MPU</div>
 							</aside>
 
-							<aside class="widget">
+							<aside class="widget links-widget">
 								<ul>
 									<li><i class="fa fa-star"></i>FAVORITE THE PROPERTY</li>
 									<li><i class="fa fa-file"></i>PRINT DETAILS IN PDF</li>
@@ -203,9 +206,9 @@
 								
 							</aside>
 
-							<span><i class="fa fa-signal"></i> Market Price <strong>Live</strong></span>
+							<span class="fast-price"><i class="fa fa-signal"></i> Market Price <strong>Live</strong></span>
 
-							<aside class="widget">
+							<aside class="widget fast-widget">
 								<ul class="live-prices">
 									<li>
 										<span class="market-title">PRICE BASED ON</span><br /><span class="market-price">60 similar listings</span>
@@ -237,32 +240,32 @@
 						
 						<div class="property">
 							<img class="property-img" src="./images/a.jpg" />
-							<h5 class="property-title"></h5>
-							<span class="property-price"><i class="fa fa-bookmark"></i>58,000 AED/year</span>
-						</div>
-
-						<div class="property">
-							<img class="property-img" src="./images/a.jpg" />
-							<h5 class="property-title"></h5>
+							<h5 class="property-title">Dubai Sport City</h5>
 							<span class="property-price"><i class="fa fa-bookmark"></i><strong>58,000</strong> AED/year</span>
 						</div>
 
 						<div class="property">
 							<img class="property-img" src="./images/a.jpg" />
-							<h5 class="property-title"></h5>
-							<span class="property-price"><i class="fa fa-bookmark"></i>58,000 AED/year</span>
+							<h5 class="property-title">Dubai Sport City</h5>
+							<span class="property-price"><i class="fa fa-bookmark"></i><strong>58,000</strong> AED/year</span>
 						</div>
 
 						<div class="property">
 							<img class="property-img" src="./images/a.jpg" />
-							<h5 class="property-title"></h5>
-							<span class="property-price"><i class="fa fa-bookmark"></i>58,000 AED/year</span>
+							<h5 class="property-title">Dubai Sport City</h5>
+							<span class="property-price"><i class="fa fa-bookmark"></i><strong>58,000</strong> AED/year</span>
 						</div>
 
 						<div class="property">
 							<img class="property-img" src="./images/a.jpg" />
-							<h5 class="property-title"></h5>
-							<span class="property-price"><i class="fa fa-bookmark"></i>58,000 AED/year</span>
+							<h5 class="property-title">Dubai Sport City</h5>
+							<span class="property-price"><i class="fa fa-bookmark"></i><strong>58,000</strong> AED/year</span>
+						</div>
+
+						<div class="property">
+							<img class="property-img" src="./images/a.jpg" />
+							<h5 class="property-title">Dubai Sport City</h5>
+							<span class="property-price"><i class="fa fa-bookmark"></i><strong>58,000</strong> AED/year</span>
 						</div>
 
 						
