@@ -83,6 +83,10 @@
 						background-color: $green;
 					}
 				}
+				&.buy-back{
+					background-color : $rent;
+					border-bottom-color : $rent;
+				}
 
 			}
 		}
@@ -95,8 +99,5 @@
 		}
 	}
 }
-.rent nav.header-nav li.rent-back{
-	background-color : $rent;
-	border-color : $rent;
-}
+
 				

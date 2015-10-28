@@ -607,17 +607,25 @@ body {
 
 /* line 32, sass/base/_base.scss */
 body.rent .first-color, body.rent .primary article div.ref span.ref-no, .primary article div.ref body.rent span.ref-no, body.rent .property-meta span.property-price strong, .property-meta span.property-price body.rent strong, body.rent .secondary aside.widget.accordion .ui-widget-content p.phone-no, .secondary aside.widget.accordion .ui-widget-content body.rent p.phone-no, body.rent .secondary aside.widget .user-meta .meta-red, .secondary aside.widget .user-meta body.rent .meta-red, body.rent .secondary aside.widget.fast-widget span.market-title, .secondary aside.widget.fast-widget body.rent span.market-title, body.rent .properties div.property span.property-price, .properties div.property body.rent span.property-price {
-  color: #C71F40; }
+  color: #1979B3; }
 /* line 35, sass/base/_base.scss */
-body.rent .first-back, body.rent .secondary aside.widget.accordion .ui-accordion-header, .secondary aside.widget.accordion body.rent .ui-accordion-header, body.rent .secondary aside.widget.accordion .ui-state-active, .secondary aside.widget.accordion body.rent .ui-state-active, body.rent .secondary aside.widget.fast-widget a.more-btn, .secondary aside.widget.fast-widget body.rent a.more-btn {
+body.rent .first-back, body.rent .secondary aside.widget.accordion .ui-widget-content, .secondary aside.widget.accordion body.rent .ui-widget-content, body.rent .secondary aside.widget.accordion .ui-accordion-header, .secondary aside.widget.accordion body.rent .ui-accordion-header, body.rent .secondary aside.widget.accordion .ui-state-active, .secondary aside.widget.accordion body.rent .ui-state-active, body.rent .secondary aside.widget.fast-widget a.more-btn, .secondary aside.widget.fast-widget body.rent a.more-btn {
+  background-color: #1979B3;
+  color: #FFFFFF; }
+
+/* line 41, sass/base/_base.scss */
+body.buy .first-color, body.buy .primary article div.ref span.ref-no, .primary article div.ref body.buy span.ref-no, body.buy .property-meta span.property-price strong, .property-meta span.property-price body.buy strong, body.buy .secondary aside.widget.accordion .ui-widget-content p.phone-no, .secondary aside.widget.accordion .ui-widget-content body.buy p.phone-no, body.buy .secondary aside.widget .user-meta .meta-red, .secondary aside.widget .user-meta body.buy .meta-red, body.buy .secondary aside.widget.fast-widget span.market-title, .secondary aside.widget.fast-widget body.buy span.market-title, body.buy .properties div.property span.property-price, .properties div.property body.buy span.property-price {
+  color: #C71F40; }
+/* line 44, sass/base/_base.scss */
+body.buy .first-back, body.buy .secondary aside.widget.accordion .ui-widget-content, .secondary aside.widget.accordion body.buy .ui-widget-content, body.buy .secondary aside.widget.accordion .ui-accordion-header, .secondary aside.widget.accordion body.buy .ui-accordion-header, body.buy .secondary aside.widget.accordion .ui-state-active, .secondary aside.widget.accordion body.buy .ui-state-active, body.buy .secondary aside.widget.fast-widget a.more-btn, .secondary aside.widget.fast-widget body.buy a.more-btn {
   background-color: #C71F40;
   color: #FFFFFF; }
 
-/* line 40, sass/base/_base.scss */
+/* line 49, sass/base/_base.scss */
 .body-inner {
   background-color: #EDECF1; }
 
-/* line 43, sass/base/_base.scss */
+/* line 52, sass/base/_base.scss */
 .layout {
   *zoom: 1;
   max-width: 67em;
@@ -632,7 +640,7 @@ body.rent .first-back, body.rent .secondary aside.widget.accordion .ui-accordion
     display: table;
     clear: both; }
 
-/* line 47, sass/base/_base.scss */
+/* line 56, sass/base/_base.scss */
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -642,27 +650,27 @@ body.rent .first-back, body.rent .secondary aside.widget.accordion .ui-accordion
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0); }
 
-/* line 50, sass/base/_base.scss */
+/* line 59, sass/base/_base.scss */
 a {
   text-decoration: none;
   color: #4a4c62; }
-  /* line 53, sass/base/_base.scss */
+  /* line 62, sass/base/_base.scss */
   a:hover {
     color: #C71F40; }
 
-/* line 60, sass/base/_base.scss */
+/* line 69, sass/base/_base.scss */
 img, video, audio, iframe {
   max-width: 100; }
 
-/* line 63, sass/base/_base.scss */
+/* line 72, sass/base/_base.scss */
 input, textarea, button {
   max-width: 100%; }
 
-/* line 66, sass/base/_base.scss */
+/* line 75, sass/base/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #111; }
 
-/* line 70, sass/base/_base.scss */
+/* line 79, sass/base/_base.scss */
 dl, menu, ol, ul, dir {
   list-style-type: none;
   -webkit-margin-before: 0;
@@ -672,31 +680,31 @@ dl, menu, ol, ul, dir {
   -webkit-padding-start: 0px; }
 
 /* Placeholder text color -- selectors need to be separate to work. */
-/* line 82, sass/base/_base.scss */
+/* line 91, sass/base/_base.scss */
 ::-webkit-input-placeholder {
   color: #7d7b6d; }
 
-/* line 86, sass/base/_base.scss */
+/* line 95, sass/base/_base.scss */
 :-moz-placeholder {
   color: #7d7b6d; }
 
-/* line 90, sass/base/_base.scss */
+/* line 99, sass/base/_base.scss */
 ::-moz-placeholder {
   color: #7d7b6d; }
 
-/* line 94, sass/base/_base.scss */
+/* line 103, sass/base/_base.scss */
 :-ms-input-placeholder {
   color: #7d7b6d; }
 
 /* Make sure videos and embeds fit their containers. */
-/* line 100, sass/base/_base.scss */
+/* line 109, sass/base/_base.scss */
 embed,
 iframe,
 object,
 video {
   max-width: 100%; }
 
-/* line 107, sass/base/_base.scss */
+/* line 116, sass/base/_base.scss */
 .def-box-shadow, .primary article div.article-body, .primary article .slider-pro.gallery-slideshow, .property-meta, .secondary aside.widget, .properties div.property {
   -moz-box-shadow: 0px 0px 7px #9698AF;
   -webkit-box-shadow: 0px 0px 7px #9698AF;
@@ -798,6 +806,10 @@ video {
           /* line 82, sass/layout/_header.scss */
           .site-header nav.header-nav ul li.bottom-green:hover {
             background-color: #309F53; }
+        /* line 86, sass/layout/_header.scss */
+        .site-header nav.header-nav ul li.buy-back {
+          background-color: #C71F40;
+          border-bottom-color: #C71F40; }
     @media (min-width: 47em) {
       /* line 50, sass/layout/_header.scss */
       .site-header nav.header-nav {
@@ -805,14 +817,9 @@ video {
         float: right;
         margin-right: 0;
         display: inline-block; }
-        /* line 91, sass/layout/_header.scss */
+        /* line 95, sass/layout/_header.scss */
         .site-header nav.header-nav ul li {
           display: inline-block; } }
-
-/* line 98, sass/layout/_header.scss */
-.rent nav.header-nav li.rent-back {
-  background-color: #C71F40;
-  border-color: #C71F40; }
 
 /* line 1, sass/layout/_main.scss */
 .site-main {
@@ -960,7 +967,6 @@ video {
       /* line 131, sass/layout/_main.scss */
       .secondary aside.widget.accordion .ui-widget-content {
         background: none;
-        background-color: #C71F40;
         -moz-border-radius: 0px;
         -webkit-border-radius: 0px;
         border-radius: 0px;

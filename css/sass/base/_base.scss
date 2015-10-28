@@ -30,6 +30,15 @@ body {
 }
 body.rent{
 	.first-color {
+		color : $blue;
+	}
+	.first-back{
+		background-color: $blue;
+		color : $white;
+	}
+}
+body.buy{
+	.first-color {
 		color : $rent;
 	}
 	.first-back{

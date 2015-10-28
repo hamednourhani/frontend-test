@@ -35,6 +35,18 @@ jQuery(document).ready(function($){
 		
 	});
 
+	$('li#rent-menu').click(function(){
+		$('body').removeClass('buy').addClass('rent');
+		$(this).css('background-color','#1979B3');
+		$('li#buy-menu').css('background-color','#484A5F');
+	});
+
+	$('li#buy-menu').click(function(){
+		$('body').removeClass('rent').addClass('buy');
+		$(this).css('background-color','#C71F40');
+		$('li#rent-menu').css('background-color','#484A5F');
+	});
+
 	
 	
 });	

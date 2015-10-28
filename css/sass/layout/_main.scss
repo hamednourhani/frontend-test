@@ -130,7 +130,7 @@ margin-bottom : 30px;
 			padding:0px;
 			.ui-widget-content {
 			    background: none;
-			    background-color: $rent;
+			    @extend .first-back;
 			    @include border-radius(0px);
 			    border : 0px;
 			    fillSpace: true;
@@ -161,7 +161,7 @@ margin-bottom : 30px;
 						@include border-box-sizing;
 			    		width : 100%;
 			    		outline: none;
-			    		
+
 			    	}
 			    	input[type="button"]{
 			    		@include single-transition(all ,0.3s, ease-in-out);
