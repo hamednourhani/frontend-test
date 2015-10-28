@@ -36,15 +36,24 @@ jQuery(document).ready(function($){
 	});
 
 	$('li#rent-menu').click(function(){
-		$('body').removeClass('buy').addClass('rent');
+		$('body').removeClass('buy commercial').addClass('rent');
 		$(this).css('background-color','#1979B3');
 		$('li#buy-menu').css('background-color','#484A5F');
+		$('li#commercial-menu').css('background-color','#484A5F');
 	});
 
 	$('li#buy-menu').click(function(){
-		$('body').removeClass('rent').addClass('buy');
+		$('body').removeClass('rent commercial').addClass('buy');
 		$(this).css('background-color','#C71F40');
 		$('li#rent-menu').css('background-color','#484A5F');
+		$('li#commercial-menu').css('background-color','#484A5F');
+	});
+
+	$('li#commercial-menu').click(function(){
+		$('body').removeClass('rent buy').addClass('commercial');
+		$(this).css('background-color','#309F53');
+		$('li#rent-menu').css('background-color','#484A5F');
+		$('li#buy-menu').css('background-color','#484A5F');
 	});
 
 	

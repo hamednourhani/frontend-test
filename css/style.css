@@ -606,26 +606,34 @@ body {
     direction: ltr; }
 
 /* line 32, sass/base/_base.scss */
-body.rent .first-color, body.rent .primary article div.ref span.ref-no, .primary article div.ref body.rent span.ref-no, body.rent .property-meta span.property-price strong, .property-meta span.property-price body.rent strong, body.rent .secondary aside.widget.accordion .ui-widget-content p.phone-no, .secondary aside.widget.accordion .ui-widget-content body.rent p.phone-no, body.rent .secondary aside.widget .user-meta .meta-red, .secondary aside.widget .user-meta body.rent .meta-red, body.rent .secondary aside.widget.fast-widget span.market-title, .secondary aside.widget.fast-widget body.rent span.market-title, body.rent .properties div.property span.property-price, .properties div.property body.rent span.property-price {
+body.rent .first-color, body.rent .primary article div.ref span.ref-no, .primary article div.ref body.rent span.ref-no, body.rent .property-meta span.property-price strong, .property-meta span.property-price body.rent strong, body.rent .secondary aside.widget.accordion .ui-widget-content p.phone-no, .secondary aside.widget.accordion .ui-widget-content body.rent p.phone-no, body.rent .secondary aside.widget.fast-widget span.market-title, .secondary aside.widget.fast-widget body.rent span.market-title, body.rent .properties div.property span.property-price, .properties div.property body.rent span.property-price {
   color: #1979B3; }
 /* line 35, sass/base/_base.scss */
 body.rent .first-back, body.rent .secondary aside.widget.accordion .ui-widget-content, .secondary aside.widget.accordion body.rent .ui-widget-content, body.rent .secondary aside.widget.accordion .ui-accordion-header, .secondary aside.widget.accordion body.rent .ui-accordion-header, body.rent .secondary aside.widget.accordion .ui-state-active, .secondary aside.widget.accordion body.rent .ui-state-active, body.rent .secondary aside.widget.fast-widget a.more-btn, .secondary aside.widget.fast-widget body.rent a.more-btn {
   background-color: #1979B3;
   color: #FFFFFF; }
 
-/* line 41, sass/base/_base.scss */
-body.buy .first-color, body.buy .primary article div.ref span.ref-no, .primary article div.ref body.buy span.ref-no, body.buy .property-meta span.property-price strong, .property-meta span.property-price body.buy strong, body.buy .secondary aside.widget.accordion .ui-widget-content p.phone-no, .secondary aside.widget.accordion .ui-widget-content body.buy p.phone-no, body.buy .secondary aside.widget .user-meta .meta-red, .secondary aside.widget .user-meta body.buy .meta-red, body.buy .secondary aside.widget.fast-widget span.market-title, .secondary aside.widget.fast-widget body.buy span.market-title, body.buy .properties div.property span.property-price, .properties div.property body.buy span.property-price {
+/* line 42, sass/base/_base.scss */
+body.commercial .first-color, body.commercial .primary article div.ref span.ref-no, .primary article div.ref body.commercial span.ref-no, body.commercial .property-meta span.property-price strong, .property-meta span.property-price body.commercial strong, body.commercial .secondary aside.widget.accordion .ui-widget-content p.phone-no, .secondary aside.widget.accordion .ui-widget-content body.commercial p.phone-no, body.commercial .secondary aside.widget.fast-widget span.market-title, .secondary aside.widget.fast-widget body.commercial span.market-title, body.commercial .properties div.property span.property-price, .properties div.property body.commercial span.property-price {
+  color: #309F53; }
+/* line 45, sass/base/_base.scss */
+body.commercial .first-back, body.commercial .secondary aside.widget.accordion .ui-widget-content, .secondary aside.widget.accordion body.commercial .ui-widget-content, body.commercial .secondary aside.widget.accordion .ui-accordion-header, .secondary aside.widget.accordion body.commercial .ui-accordion-header, body.commercial .secondary aside.widget.accordion .ui-state-active, .secondary aside.widget.accordion body.commercial .ui-state-active, body.commercial .secondary aside.widget.fast-widget a.more-btn, .secondary aside.widget.fast-widget body.commercial a.more-btn {
+  background-color: #309F53;
+  color: #FFFFFF; }
+
+/* line 51, sass/base/_base.scss */
+body.buy .first-color, body.buy .primary article div.ref span.ref-no, .primary article div.ref body.buy span.ref-no, body.buy .property-meta span.property-price strong, .property-meta span.property-price body.buy strong, body.buy .secondary aside.widget.accordion .ui-widget-content p.phone-no, .secondary aside.widget.accordion .ui-widget-content body.buy p.phone-no, body.buy .secondary aside.widget.fast-widget span.market-title, .secondary aside.widget.fast-widget body.buy span.market-title, body.buy .properties div.property span.property-price, .properties div.property body.buy span.property-price {
   color: #C71F40; }
-/* line 44, sass/base/_base.scss */
+/* line 54, sass/base/_base.scss */
 body.buy .first-back, body.buy .secondary aside.widget.accordion .ui-widget-content, .secondary aside.widget.accordion body.buy .ui-widget-content, body.buy .secondary aside.widget.accordion .ui-accordion-header, .secondary aside.widget.accordion body.buy .ui-accordion-header, body.buy .secondary aside.widget.accordion .ui-state-active, .secondary aside.widget.accordion body.buy .ui-state-active, body.buy .secondary aside.widget.fast-widget a.more-btn, .secondary aside.widget.fast-widget body.buy a.more-btn {
   background-color: #C71F40;
   color: #FFFFFF; }
 
-/* line 49, sass/base/_base.scss */
+/* line 59, sass/base/_base.scss */
 .body-inner {
   background-color: #EDECF1; }
 
-/* line 52, sass/base/_base.scss */
+/* line 62, sass/base/_base.scss */
 .layout {
   *zoom: 1;
   max-width: 67em;
@@ -640,7 +648,7 @@ body.buy .first-back, body.buy .secondary aside.widget.accordion .ui-widget-cont
     display: table;
     clear: both; }
 
-/* line 56, sass/base/_base.scss */
+/* line 66, sass/base/_base.scss */
 .fa {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
@@ -650,27 +658,27 @@ body.buy .first-back, body.buy .secondary aside.widget.accordion .ui-widget-cont
   -moz-osx-font-smoothing: grayscale;
   transform: translate(0, 0); }
 
-/* line 59, sass/base/_base.scss */
+/* line 69, sass/base/_base.scss */
 a {
   text-decoration: none;
   color: #4a4c62; }
-  /* line 62, sass/base/_base.scss */
+  /* line 72, sass/base/_base.scss */
   a:hover {
     color: #C71F40; }
 
-/* line 69, sass/base/_base.scss */
+/* line 79, sass/base/_base.scss */
 img, video, audio, iframe {
   max-width: 100; }
 
-/* line 72, sass/base/_base.scss */
+/* line 82, sass/base/_base.scss */
 input, textarea, button {
   max-width: 100%; }
 
-/* line 75, sass/base/_base.scss */
+/* line 85, sass/base/_base.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #111; }
 
-/* line 79, sass/base/_base.scss */
+/* line 89, sass/base/_base.scss */
 dl, menu, ol, ul, dir {
   list-style-type: none;
   -webkit-margin-before: 0;
@@ -680,31 +688,31 @@ dl, menu, ol, ul, dir {
   -webkit-padding-start: 0px; }
 
 /* Placeholder text color -- selectors need to be separate to work. */
-/* line 91, sass/base/_base.scss */
+/* line 101, sass/base/_base.scss */
 ::-webkit-input-placeholder {
   color: #7d7b6d; }
 
-/* line 95, sass/base/_base.scss */
+/* line 105, sass/base/_base.scss */
 :-moz-placeholder {
   color: #7d7b6d; }
 
-/* line 99, sass/base/_base.scss */
+/* line 109, sass/base/_base.scss */
 ::-moz-placeholder {
   color: #7d7b6d; }
 
-/* line 103, sass/base/_base.scss */
+/* line 113, sass/base/_base.scss */
 :-ms-input-placeholder {
   color: #7d7b6d; }
 
 /* Make sure videos and embeds fit their containers. */
-/* line 109, sass/base/_base.scss */
+/* line 119, sass/base/_base.scss */
 embed,
 iframe,
 object,
 video {
   max-width: 100%; }
 
-/* line 116, sass/base/_base.scss */
+/* line 126, sass/base/_base.scss */
 .def-box-shadow, .primary article div.article-body, .primary article .slider-pro.gallery-slideshow, .property-meta, .secondary aside.widget, .properties div.property {
   -moz-box-shadow: 0px 0px 7px #9698AF;
   -webkit-box-shadow: 0px 0px 7px #9698AF;
@@ -1131,6 +1139,7 @@ video {
         color: #1979B3; }
       /* line 274, sass/layout/_main.scss */
       .secondary aside.widget .user-meta .meta-red {
+        color: #C71F40;
         font-size: 60%; }
     /* line 282, sass/layout/_main.scss */
     .secondary aside.widget.add-widget {
@@ -1148,31 +1157,39 @@ video {
       padding: 0px; }
       /* line 296, sass/layout/_main.scss */
       .secondary aside.widget.links-widget ul li {
+        -moz-transition: all 0.4s ease-in-out 0s;
+        -o-transition: all 0.4s ease-in-out 0s;
+        -webkit-transition: all 0.4s ease-in-out;
+        -webkit-transition-delay: 0s;
+        transition: all 0.4s ease-in-out 0s;
         padding: 15px 10px 15px 30px;
         color: #9698AF;
         border-bottom: 1px solid #EDECF1; }
-        /* line 300, sass/layout/_main.scss */
+        /* line 301, sass/layout/_main.scss */
         .secondary aside.widget.links-widget ul li:last-child {
           border: 0px; }
-        /* line 303, sass/layout/_main.scss */
+        /* line 304, sass/layout/_main.scss */
         .secondary aside.widget.links-widget ul li i {
           margin-right: 20px;
           font-size: 110%; }
-    /* line 310, sass/layout/_main.scss */
+        /* line 308, sass/layout/_main.scss */
+        .secondary aside.widget.links-widget ul li:hover {
+          background-color: #EDECF1; }
+    /* line 315, sass/layout/_main.scss */
     .secondary aside.widget.fast-widget ul li {
       padding: 10px;
       border-bottom: 1px solid #B2B0BE; }
-      /* line 313, sass/layout/_main.scss */
+      /* line 318, sass/layout/_main.scss */
       .secondary aside.widget.fast-widget ul li:last-child {
         border: 0px; }
-    /* line 317, sass/layout/_main.scss */
+    /* line 322, sass/layout/_main.scss */
     .secondary aside.widget.fast-widget span.market-title {
       font-size: 80%; }
-    /* line 321, sass/layout/_main.scss */
+    /* line 326, sass/layout/_main.scss */
     .secondary aside.widget.fast-widget span.market-price {
       color: #797c99;
       font-size: 110%; }
-    /* line 325, sass/layout/_main.scss */
+    /* line 330, sass/layout/_main.scss */
     .secondary aside.widget.fast-widget a.more-btn {
       -moz-transition: all 0.3s ease-in-out 0s;
       -o-transition: all 0.3s ease-in-out 0s;
@@ -1183,62 +1200,62 @@ video {
       float: right;
       display: inline-block;
       font-size: 85%; }
-      /* line 332, sass/layout/_main.scss */
+      /* line 337, sass/layout/_main.scss */
       .secondary aside.widget.fast-widget a.more-btn:hover {
         opacity: 0.8; }
-  /* line 339, sass/layout/_main.scss */
+  /* line 344, sass/layout/_main.scss */
   .secondary span.add-title, .secondary span.fast-price {
     color: #9698AF;
     display: inline-block;
     margin-bottom: 5px; }
 
-/* line 348, sass/layout/_main.scss */
+/* line 353, sass/layout/_main.scss */
 .properties h3 {
   text-align: center;
   color: #9698AF;
   font-weight: normal; }
-  /* line 352, sass/layout/_main.scss */
+  /* line 357, sass/layout/_main.scss */
   .properties h3 i {
     margin-right: 5px;
     font-size: 120%; }
-    /* line 355, sass/layout/_main.scss */
+    /* line 360, sass/layout/_main.scss */
     .properties h3 i:before {
       vertical-align: middle; }
-/* line 360, sass/layout/_main.scss */
+/* line 365, sass/layout/_main.scss */
 .properties div.property {
   width: 100%;
   margin-bottom: 10px;
   text-align: center;
   background-color: #FFFFFF;
   overflow: hidden; }
-  /* line 364, sass/layout/_main.scss */
+  /* line 369, sass/layout/_main.scss */
   .properties div.property img.property-image {
     margin: auto; }
   @media (min-width: 30em) and (max-width: 47em) {
-    /* line 360, sass/layout/_main.scss */
+    /* line 365, sass/layout/_main.scss */
     .properties div.property {
       width: 48%;
       margin-right: 2%;
       float: left; }
-      /* line 372, sass/layout/_main.scss */
+      /* line 377, sass/layout/_main.scss */
       .properties div.property:nth-of-type(2n) {
         margin-right: 0px; } }
   @media (min-width: 47em) {
-    /* line 360, sass/layout/_main.scss */
+    /* line 365, sass/layout/_main.scss */
     .properties div.property {
       width: 18.4%;
       margin-right: 2%;
       float: left; }
-      /* line 380, sass/layout/_main.scss */
+      /* line 385, sass/layout/_main.scss */
       .properties div.property:nth-of-type(5n) {
         margin-right: 0px; } }
-  /* line 389, sass/layout/_main.scss */
+  /* line 394, sass/layout/_main.scss */
   .properties div.property h5.property-title {
     color: #9698AF;
     border-bottom: 1px solid #EDECF1;
     margin: 3px 10px;
     text-align: left; }
-  /* line 395, sass/layout/_main.scss */
+  /* line 400, sass/layout/_main.scss */
   .properties div.property span.property-price {
     display: inline-block;
     width: 100%;

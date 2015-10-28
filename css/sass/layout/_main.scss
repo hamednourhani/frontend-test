@@ -272,7 +272,7 @@ margin-bottom : 30px;
 				color : $blue;
 			}
 			.meta-red{
-				@extend .first-color;
+				color : $rent;
 				font-size : 60%;
 
 			}
@@ -294,6 +294,7 @@ margin-bottom : 30px;
 		&.links-widget{
 			padding : 0px;
 			ul li{
+				@include single-transition(all ,0.4s, ease-in-out);
 				padding : 15px 10px 15px 30px;
 				color : $grey3;
 				border-bottom : 1px solid $grey1;
@@ -303,6 +304,10 @@ margin-bottom : 30px;
 				i{
 					margin-right : 20px;
 					font-size: 110%;
+				}
+				&:hover{
+
+					background-color: $grey1;
 				}
 			}
 		}

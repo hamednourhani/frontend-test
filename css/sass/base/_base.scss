@@ -37,6 +37,16 @@ body.rent{
 		color : $white;
 	}
 }
+
+body.commercial{
+	.first-color {
+		color : $green;
+	}
+	.first-back{
+		background-color: $green;
+		color : $white;
+	}
+}
 body.buy{
 	.first-color {
 		color : $rent;
