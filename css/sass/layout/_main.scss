@@ -77,13 +77,61 @@ margin-bottom : 30px;
 			    @include border-radius(0px);
 			    border : 0px;
 			    fillSpace: true;
+			    padding : 5px;
+			    form{
+			    	background-color: $white;
+			    	color : $grey3;
+			    	padding : 10px;
+			    	input,textarea{
+			    		width : 100%;
+			    		margin-bottom : 10px;
+			    		padding : 6px 10px;
+			    		@include border-radius(3px);
+
+			    		font-size : 90%;
+			    	}
+			    	label{
+			    		display: inline-block;
+			    		font-size : 70%;
+			    		margin-bottom : 10px;
+			    	}
+			    	textarea {
+						@include border-box-sizing;
+			    		width : 100%;
+			    	}
+			    	input[type="button"]{
+			    		padding : 5px 10px;
+			    		width : auto;
+			    		background-color:$navy;
+			    		color : $white;
+			    	}
+			    	input.qty{
+			    		width : 70%;
+			    		@include border-right-radius(0px);
+			    	}
+			    	span.qty-desc{
+			    		display : inline-block;
+			    		background-color: $grey1;
+			    		padding : 5px;
+			    		@include border-right-radius(3px);
+
+			    	}
+			    }
+			    p.phone-no{
+			    	@extend .first-color;
+			    	background-color: $white;
+			    	font-size : 140%;
+			    	padding : 15px 10px;
+			    	text-align: center;
+			    	margin : 5px;
+			    }
 			}
 			.ui-accordion-header,.ui-state-active{
 				background : none;
 				@extend .first-back;
 				// background-color: $rent !important;
 				// color : $white;
-				padding : 15px 10px;
+				padding : 15px 10px 15px 30px;
 				border : 0px;
 				margin-top: -1px;
 				outline : none;

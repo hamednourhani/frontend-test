@@ -606,7 +606,7 @@ body {
     direction: ltr; }
 
 /* line 32, sass/base/_base.scss */
-body.rent .first-color, body.rent .secondary aside.widget .user-meta .meta-red, .secondary aside.widget .user-meta body.rent .meta-red {
+body.rent .first-color, body.rent .secondary aside.widget.accordion .ui-widget-content p.phone-no, .secondary aside.widget.accordion .ui-widget-content body.rent p.phone-no, body.rent .secondary aside.widget .user-meta .meta-red, .secondary aside.widget .user-meta body.rent .meta-red {
   color: #C71F40; }
 /* line 35, sass/base/_base.scss */
 body.rent .first-back, body.rent .secondary aside.widget.accordion .ui-accordion-header, .secondary aside.widget.accordion body.rent .ui-accordion-header, body.rent .secondary aside.widget.accordion .ui-state-active, .secondary aside.widget.accordion body.rent .ui-state-active {
@@ -875,11 +875,72 @@ video {
         -webkit-border-radius: 0px;
         border-radius: 0px;
         border: 0px;
-        fillSpace: true; }
-      /* line 81, sass/layout/_main.scss */
+        fillSpace: true;
+        padding: 5px; }
+        /* line 81, sass/layout/_main.scss */
+        .secondary aside.widget.accordion .ui-widget-content form {
+          background-color: #FFFFFF;
+          color: #9698AF;
+          padding: 10px; }
+          /* line 85, sass/layout/_main.scss */
+          .secondary aside.widget.accordion .ui-widget-content form input, .secondary aside.widget.accordion .ui-widget-content form textarea {
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 6px 10px;
+            -moz-border-radius: 3px;
+            -webkit-border-radius: 3px;
+            border-radius: 3px;
+            font-size: 90%; }
+          /* line 93, sass/layout/_main.scss */
+          .secondary aside.widget.accordion .ui-widget-content form label {
+            display: inline-block;
+            font-size: 70%;
+            margin-bottom: 10px; }
+          /* line 98, sass/layout/_main.scss */
+          .secondary aside.widget.accordion .ui-widget-content form textarea {
+            width: 100%; }
+            /* line 14, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susyone/_grid.scss */
+            .secondary aside.widget.accordion .ui-widget-content form textarea * {
+              -moz-box-sizing: border-box;
+              -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+          /* line 102, sass/layout/_main.scss */
+          .secondary aside.widget.accordion .ui-widget-content form input[type="button"] {
+            padding: 5px 10px;
+            width: auto;
+            background-color: #484A5F;
+            color: #FFFFFF; }
+          /* line 108, sass/layout/_main.scss */
+          .secondary aside.widget.accordion .ui-widget-content form input.qty {
+            width: 70%;
+            -moz-border-radius-topright: 0px;
+            -webkit-border-top-right-radius: 0px;
+            border-top-right-radius: 0px;
+            -moz-border-radius-bottomright: 0px;
+            -webkit-border-bottom-right-radius: 0px;
+            border-bottom-right-radius: 0px; }
+          /* line 112, sass/layout/_main.scss */
+          .secondary aside.widget.accordion .ui-widget-content form span.qty-desc {
+            display: inline-block;
+            background-color: #EDECF1;
+            padding: 5px;
+            -moz-border-radius-topright: 3px;
+            -webkit-border-top-right-radius: 3px;
+            border-top-right-radius: 3px;
+            -moz-border-radius-bottomright: 3px;
+            -webkit-border-bottom-right-radius: 3px;
+            border-bottom-right-radius: 3px; }
+        /* line 120, sass/layout/_main.scss */
+        .secondary aside.widget.accordion .ui-widget-content p.phone-no {
+          background-color: #FFFFFF;
+          font-size: 140%;
+          padding: 10px;
+          text-align: center;
+          margin: 5px; }
+      /* line 129, sass/layout/_main.scss */
       .secondary aside.widget.accordion .ui-accordion-header, .secondary aside.widget.accordion .ui-state-active {
         background: none;
-        padding: 15px 10px;
+        padding: 15px 10px 15px 30px;
         border: 0px;
         margin-top: -1px;
         outline: none;
@@ -888,25 +949,25 @@ video {
         -moz-border-radius: 0px;
         -webkit-border-radius: 0px;
         border-radius: 0px; }
-        /* line 94, sass/layout/_main.scss */
+        /* line 142, sass/layout/_main.scss */
         .secondary aside.widget.accordion .ui-accordion-header:first-child, .secondary aside.widget.accordion .ui-state-active:first-child {
           border: 0px; }
-        /* line 97, sass/layout/_main.scss */
+        /* line 145, sass/layout/_main.scss */
         .secondary aside.widget.accordion .ui-accordion-header i, .secondary aside.widget.accordion .ui-state-active i {
           margin-right: 20px; }
-        /* line 100, sass/layout/_main.scss */
+        /* line 148, sass/layout/_main.scss */
         .secondary aside.widget.accordion .ui-accordion-header .ui-state-active, .secondary aside.widget.accordion .ui-state-active .ui-state-active {
           border: 0px; }
-    /* line 105, sass/layout/_main.scss */
+    /* line 153, sass/layout/_main.scss */
     .secondary aside.widget .avatar-wrapper {
       width: 32.30769%;
       float: left;
       margin-right: 1.53846%;
       display: inline; }
-      /* line 107, sass/layout/_main.scss */
+      /* line 155, sass/layout/_main.scss */
       .secondary aside.widget .avatar-wrapper img {
         max-width: 100%; }
-    /* line 111, sass/layout/_main.scss */
+    /* line 159, sass/layout/_main.scss */
     .secondary aside.widget .user-meta {
       padding: 5px;
       padding-top: 0px;
@@ -915,15 +976,15 @@ video {
       margin-right: 0;
       *margin-left: -1em;
       display: inline; }
-      /* line 115, sass/layout/_main.scss */
+      /* line 163, sass/layout/_main.scss */
       .secondary aside.widget .user-meta strong {
         font-weight: normal;
         font-size: 110%; }
-      /* line 119, sass/layout/_main.scss */
+      /* line 167, sass/layout/_main.scss */
       .secondary aside.widget .user-meta span {
         color: #9698AF;
         font-size: 90%; }
-      /* line 123, sass/layout/_main.scss */
+      /* line 171, sass/layout/_main.scss */
       .secondary aside.widget .user-meta .blue-back {
         background-color: #092D69;
         color: #FFFFFF;
@@ -935,7 +996,7 @@ video {
         font-size: 110%;
         margin-top: 5px;
         display: inline-block; }
-      /* line 133, sass/layout/_main.scss */
+      /* line 181, sass/layout/_main.scss */
       .secondary aside.widget .user-meta .red-back {
         background-color: #ad0501;
         color: #FFFFFF;
@@ -947,28 +1008,28 @@ video {
         font-size: 110%;
         margin-top: 5px;
         display: inline-block; }
-      /* line 146, sass/layout/_main.scss */
+      /* line 194, sass/layout/_main.scss */
       .secondary aside.widget .user-meta .meta-blue {
         font-size: 60%;
         color: #1979B3; }
-      /* line 150, sass/layout/_main.scss */
+      /* line 198, sass/layout/_main.scss */
       .secondary aside.widget .user-meta .meta-red {
         font-size: 60%; }
 
-/* line 162, sass/layout/_main.scss */
+/* line 210, sass/layout/_main.scss */
 .properties h3 {
   text-align: center; }
-  /* line 164, sass/layout/_main.scss */
+  /* line 212, sass/layout/_main.scss */
   .properties h3 i {
     margin-right: 5px;
     font-size: 120%; }
-/* line 169, sass/layout/_main.scss */
+/* line 217, sass/layout/_main.scss */
 .properties div.property {
   width: 18.4%;
   margin-right: 2%;
   float: left;
   background-color: #FFFFFF;
   overflow: hidden; }
-  /* line 176, sass/layout/_main.scss */
+  /* line 224, sass/layout/_main.scss */
   .properties div.property:last-child {
     margin-right: 0px; }
