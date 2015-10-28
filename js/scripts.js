@@ -1,14 +1,7 @@
 
 jQuery(document).ready(function($){
 	
-	// setTimeout(function(){ 
-	// 	window.loading_screen.finish();
-	//  }, 1000);
-
-	// $('nav.main-menu').scrollToFixed({
-	// 	minWidth : 945,
-	// });
-
+	
    $( '#gallery-slideshow' ).sliderPro({
 		width: 960,
 		height: 500,
@@ -41,6 +34,8 @@ jQuery(document).ready(function($){
 
 		
 	});
+
+	
 	
 });	
 		

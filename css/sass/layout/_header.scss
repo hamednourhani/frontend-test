@@ -50,7 +50,7 @@
 	nav.header-nav{
 		
 		@include span-columns(12,12);
-		display : none;
+		display : none ;
 		
 		font-size : 90%;
 		text-align : right;
@@ -89,7 +89,7 @@
 		@include at-breakpoint($medium){
 			@include span-columns(8 omega,12);
 			ul li{
-				display : inline-block;
+				display : inline-block ;
 			}
 			display : inline-block;
 		}
