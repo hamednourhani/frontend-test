@@ -144,6 +144,7 @@ margin-bottom : 30px;
 			    		width : 100%;
 			    	}
 			    	input,textarea{
+			    		outline: none;
 			    		width : 100%;
 			    		margin-bottom : 10px;
 			    		padding : 6px 10px;
@@ -159,12 +160,18 @@ margin-bottom : 30px;
 			    	textarea {
 						@include border-box-sizing;
 			    		width : 100%;
+			    		outline: none;
+			    		
 			    	}
 			    	input[type="button"]{
+			    		@include single-transition(all ,0.3s, ease-in-out);
 			    		padding : 5px 10px;
 			    		width : auto;
 			    		background-color:$navy;
 			    		color : $white;
+			    		&:hover{
+			    			opacity : 0.8;
+			    		}
 			    	}
 			    	input.qty{
 			    		width : 70%;
@@ -317,10 +324,14 @@ margin-bottom : 30px;
 			}
 			a.more-btn{
 				@extend .first-back;
+				@include single-transition(all ,0.3s, ease-in-out);
 				padding : 3px 8px;
 				float : right;
 				display: inline-block;
 				font-size : 85%;
+				&:hover{
+					opacity : 0.8;
+				}
 			}
 
 		}

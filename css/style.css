@@ -978,6 +978,7 @@ video {
             width: 100%; }
           /* line 146, sass/layout/_main.scss */
           .secondary aside.widget.accordion .ui-widget-content form input, .secondary aside.widget.accordion .ui-widget-content form textarea {
+            outline: none;
             width: 100%;
             margin-bottom: 10px;
             padding: 6px 10px;
@@ -985,26 +986,35 @@ video {
             -webkit-border-radius: 3px;
             border-radius: 3px;
             font-size: 90%; }
-          /* line 154, sass/layout/_main.scss */
+          /* line 155, sass/layout/_main.scss */
           .secondary aside.widget.accordion .ui-widget-content form label {
             display: inline-block;
             font-size: 70%;
             margin-bottom: 10px; }
-          /* line 159, sass/layout/_main.scss */
+          /* line 160, sass/layout/_main.scss */
           .secondary aside.widget.accordion .ui-widget-content form textarea {
-            width: 100%; }
+            width: 100%;
+            outline: none; }
             /* line 14, ../../../../Ruby22-x64/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susyone/_grid.scss */
             .secondary aside.widget.accordion .ui-widget-content form textarea * {
               -moz-box-sizing: border-box;
               -webkit-box-sizing: border-box;
               box-sizing: border-box; }
-          /* line 163, sass/layout/_main.scss */
+          /* line 166, sass/layout/_main.scss */
           .secondary aside.widget.accordion .ui-widget-content form input[type="button"] {
+            -moz-transition: all 0.3s ease-in-out 0s;
+            -o-transition: all 0.3s ease-in-out 0s;
+            -webkit-transition: all 0.3s ease-in-out;
+            -webkit-transition-delay: 0s;
+            transition: all 0.3s ease-in-out 0s;
             padding: 5px 10px;
             width: auto;
             background-color: #484A5F;
             color: #FFFFFF; }
-          /* line 169, sass/layout/_main.scss */
+            /* line 172, sass/layout/_main.scss */
+            .secondary aside.widget.accordion .ui-widget-content form input[type="button"]:hover {
+              opacity: 0.8; }
+          /* line 176, sass/layout/_main.scss */
           .secondary aside.widget.accordion .ui-widget-content form input.qty {
             width: 70%;
             -moz-border-radius-topright: 0px;
@@ -1013,7 +1023,7 @@ video {
             -moz-border-radius-bottomright: 0px;
             -webkit-border-bottom-right-radius: 0px;
             border-bottom-right-radius: 0px; }
-          /* line 173, sass/layout/_main.scss */
+          /* line 180, sass/layout/_main.scss */
           .secondary aside.widget.accordion .ui-widget-content form span.qty-desc {
             display: inline-block;
             background-color: #EDECF1;
@@ -1024,14 +1034,14 @@ video {
             -moz-border-radius-bottomright: 3px;
             -webkit-border-bottom-right-radius: 3px;
             border-bottom-right-radius: 3px; }
-        /* line 181, sass/layout/_main.scss */
+        /* line 188, sass/layout/_main.scss */
         .secondary aside.widget.accordion .ui-widget-content p.phone-no {
           background-color: #FFFFFF;
           font-size: 140%;
           padding: 15px 10px;
           text-align: center;
           margin: 5px; }
-      /* line 190, sass/layout/_main.scss */
+      /* line 197, sass/layout/_main.scss */
       .secondary aside.widget.accordion .ui-accordion-header, .secondary aside.widget.accordion .ui-state-active {
         background: none;
         padding: 20px 10px 20px 30px;
@@ -1043,26 +1053,26 @@ video {
         -moz-border-radius: 0px;
         -webkit-border-radius: 0px;
         border-radius: 0px; }
-        /* line 203, sass/layout/_main.scss */
+        /* line 210, sass/layout/_main.scss */
         .secondary aside.widget.accordion .ui-accordion-header:first-child, .secondary aside.widget.accordion .ui-state-active:first-child {
           border: 0px; }
-        /* line 206, sass/layout/_main.scss */
+        /* line 213, sass/layout/_main.scss */
         .secondary aside.widget.accordion .ui-accordion-header i, .secondary aside.widget.accordion .ui-state-active i {
           margin-right: 20px; }
-        /* line 209, sass/layout/_main.scss */
+        /* line 216, sass/layout/_main.scss */
         .secondary aside.widget.accordion .ui-accordion-header .ui-state-active, .secondary aside.widget.accordion .ui-state-active .ui-state-active {
           border: 0px; }
-    /* line 214, sass/layout/_main.scss */
+    /* line 221, sass/layout/_main.scss */
     .secondary aside.widget .avatar-wrapper {
       width: 32.30769%;
       float: left;
       margin-right: 1.53846%;
       display: inline; }
-      /* line 216, sass/layout/_main.scss */
+      /* line 223, sass/layout/_main.scss */
       .secondary aside.widget .avatar-wrapper img {
         max-width: 100%;
         max-height: 160px; }
-    /* line 221, sass/layout/_main.scss */
+    /* line 228, sass/layout/_main.scss */
     .secondary aside.widget .user-meta {
       padding: 5px;
       padding-top: 0px;
@@ -1071,21 +1081,21 @@ video {
       margin-right: 0;
       *margin-left: -1em;
       display: inline; }
-      /* line 226, sass/layout/_main.scss */
+      /* line 233, sass/layout/_main.scss */
       .secondary aside.widget .user-meta strong {
         font-weight: normal;
         font-size: 110%; }
-      /* line 230, sass/layout/_main.scss */
+      /* line 237, sass/layout/_main.scss */
       .secondary aside.widget .user-meta span {
         color: #9698AF;
         font-size: 90%; }
-      /* line 234, sass/layout/_main.scss */
+      /* line 241, sass/layout/_main.scss */
       .secondary aside.widget .user-meta span.meta-unit {
         display: inline-block;
         width: 100%;
         float: left;
         line-height: 1.5; }
-      /* line 240, sass/layout/_main.scss */
+      /* line 247, sass/layout/_main.scss */
       .secondary aside.widget .user-meta .blue-back {
         background-color: #092D69;
         color: #FFFFFF;
@@ -1097,7 +1107,7 @@ video {
         font-size: 110%;
         margin-top: 5px;
         display: inline-block; }
-      /* line 250, sass/layout/_main.scss */
+      /* line 257, sass/layout/_main.scss */
       .secondary aside.widget .user-meta .red-back {
         background-color: #ad0501;
         color: #FFFFFF;
@@ -1109,17 +1119,17 @@ video {
         font-size: 110%;
         margin-top: 5px;
         display: inline-block; }
-      /* line 263, sass/layout/_main.scss */
+      /* line 270, sass/layout/_main.scss */
       .secondary aside.widget .user-meta .meta-blue {
         font-size: 60%;
         color: #1979B3; }
-      /* line 267, sass/layout/_main.scss */
+      /* line 274, sass/layout/_main.scss */
       .secondary aside.widget .user-meta .meta-red {
         font-size: 60%; }
-    /* line 275, sass/layout/_main.scss */
+    /* line 282, sass/layout/_main.scss */
     .secondary aside.widget.add-widget {
       padding: 0px; }
-      /* line 277, sass/layout/_main.scss */
+      /* line 284, sass/layout/_main.scss */
       .secondary aside.widget.add-widget .ad-placeholder {
         background-color: #C60601;
         color: #FFFFFF;
@@ -1127,94 +1137,102 @@ video {
         font-size: 320%;
         text-align: center;
         padding: 110px 20px; }
-    /* line 287, sass/layout/_main.scss */
+    /* line 294, sass/layout/_main.scss */
     .secondary aside.widget.links-widget {
       padding: 0px; }
-      /* line 289, sass/layout/_main.scss */
+      /* line 296, sass/layout/_main.scss */
       .secondary aside.widget.links-widget ul li {
         padding: 15px 10px 15px 30px;
         color: #9698AF;
         border-bottom: 1px solid #EDECF1; }
-        /* line 293, sass/layout/_main.scss */
+        /* line 300, sass/layout/_main.scss */
         .secondary aside.widget.links-widget ul li:last-child {
           border: 0px; }
-        /* line 296, sass/layout/_main.scss */
+        /* line 303, sass/layout/_main.scss */
         .secondary aside.widget.links-widget ul li i {
           margin-right: 20px;
           font-size: 110%; }
-    /* line 303, sass/layout/_main.scss */
+    /* line 310, sass/layout/_main.scss */
     .secondary aside.widget.fast-widget ul li {
       padding: 10px;
       border-bottom: 1px solid #B2B0BE; }
-      /* line 306, sass/layout/_main.scss */
+      /* line 313, sass/layout/_main.scss */
       .secondary aside.widget.fast-widget ul li:last-child {
         border: 0px; }
-    /* line 310, sass/layout/_main.scss */
+    /* line 317, sass/layout/_main.scss */
     .secondary aside.widget.fast-widget span.market-title {
       font-size: 80%; }
-    /* line 314, sass/layout/_main.scss */
+    /* line 321, sass/layout/_main.scss */
     .secondary aside.widget.fast-widget span.market-price {
       color: #797c99;
       font-size: 110%; }
-    /* line 318, sass/layout/_main.scss */
+    /* line 325, sass/layout/_main.scss */
     .secondary aside.widget.fast-widget a.more-btn {
+      -moz-transition: all 0.3s ease-in-out 0s;
+      -o-transition: all 0.3s ease-in-out 0s;
+      -webkit-transition: all 0.3s ease-in-out;
+      -webkit-transition-delay: 0s;
+      transition: all 0.3s ease-in-out 0s;
       padding: 3px 8px;
       float: right;
       display: inline-block;
       font-size: 85%; }
-  /* line 328, sass/layout/_main.scss */
+      /* line 332, sass/layout/_main.scss */
+      .secondary aside.widget.fast-widget a.more-btn:hover {
+        opacity: 0.8; }
+  /* line 339, sass/layout/_main.scss */
   .secondary span.add-title, .secondary span.fast-price {
     color: #9698AF;
     display: inline-block;
     margin-bottom: 5px; }
 
-/* line 337, sass/layout/_main.scss */
+/* line 348, sass/layout/_main.scss */
 .properties h3 {
   text-align: center;
   color: #9698AF;
   font-weight: normal; }
-  /* line 341, sass/layout/_main.scss */
+  /* line 352, sass/layout/_main.scss */
   .properties h3 i {
     margin-right: 5px;
     font-size: 120%; }
-    /* line 344, sass/layout/_main.scss */
+    /* line 355, sass/layout/_main.scss */
     .properties h3 i:before {
       vertical-align: middle; }
-/* line 349, sass/layout/_main.scss */
+/* line 360, sass/layout/_main.scss */
 .properties div.property {
   width: 100%;
   margin-bottom: 10px;
   text-align: center;
   background-color: #FFFFFF;
   overflow: hidden; }
-  /* line 353, sass/layout/_main.scss */
+  /* line 364, sass/layout/_main.scss */
   .properties div.property img.property-image {
     margin: auto; }
   @media (min-width: 30em) and (max-width: 47em) {
-    /* line 349, sass/layout/_main.scss */
+    /* line 360, sass/layout/_main.scss */
     .properties div.property {
       width: 48%;
       margin-right: 2%;
       float: left; }
-      /* line 361, sass/layout/_main.scss */
+      /* line 372, sass/layout/_main.scss */
       .properties div.property:nth-of-type(2n) {
         margin-right: 0px; } }
   @media (min-width: 47em) {
-    /* line 349, sass/layout/_main.scss */
+    /* line 360, sass/layout/_main.scss */
     .properties div.property {
       width: 18.4%;
       margin-right: 2%;
       float: left; }
-      /* line 369, sass/layout/_main.scss */
+      /* line 380, sass/layout/_main.scss */
       .properties div.property:nth-of-type(5n) {
         margin-right: 0px; } }
-  /* line 378, sass/layout/_main.scss */
+  /* line 389, sass/layout/_main.scss */
   .properties div.property h5.property-title {
     color: #9698AF;
     border-bottom: 1px solid #EDECF1;
     margin: 3px 10px;
     text-align: left; }
-  /* line 384, sass/layout/_main.scss */
+  /* line 395, sass/layout/_main.scss */
   .properties div.property span.property-price {
     display: inline-block;
     width: 100%;
