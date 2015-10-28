@@ -1,0 +1,41 @@
+/* ------------susy-------- */
+$total-columns : 12;
+$column-width : 4.5em;
+$gutter-width : 1em;
+$grid-padding : $gutter-width;
+$from-direction: left;
+$omega-float : right;
+
+$default-transition-delay    : 0s;
+@include border-box-sizing;
+
+$small : 30em;
+$xmedium : 34em;
+$medium : 45em;
+$larg : 75em;
+
+
+/*------ colors -----------*/
+$rent : #C71F40;
+$red : #C60601;
+$green : #309F53;
+$blue : #1979B3;
+$blue2 : #092D69;
+$navy : #484A5F;
+$navy2 : #83868F;
+
+$grey3: #9698AF;
+$grey2 : #B2B0BE;
+$grey1 : #EDECF1;
+
+$black2 : #282828;
+$black1 : #111;
+
+
+$white : #FFFFFF;
+$white2 : #F8F8F8;
+
+$glassyBlack : rgba(44, 35, 40, 0.85);
+$glassyWhite : rgba(255, 255, 255, 0.85);
+
+

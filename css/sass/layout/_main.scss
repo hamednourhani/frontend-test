@@ -1,0 +1,124 @@
+.site-main{
+margin-top : 30px;
+margin-bottom : 30px;
+}
+
+.primary{
+	@include span-columns(12,12);
+	@include at-breakpoint($medium){
+		@include span-columns(8,12);
+	}
+	div.article-body{
+		@extend .def-box-shadow;
+		background-color : $white;
+		padding : 20px;
+	}
+	.slider-pro.gallery-slideshow{
+		@extend .def-box-shadow;
+	}
+}
+.property-meta{
+	@extend .def-box-shadow;
+	background-color: $white;
+	overflow : hidden;
+	margin-bottom : 20px;
+	ul{ 
+		@include span-columns(12,12);
+		@include at-breakpoint($medium){
+			@include span-columns(8,12);
+		}
+		padding : 0 10px;
+		li{
+		
+			display : inline-block;
+			padding : 10px;
+			color : $grey3;
+			i{
+				margin-right : 1px;
+			}
+		}
+	}
+	span.property-price{
+		@include span-columns(12,12);
+		@include at-breakpoint($medium){
+			@include span-columns(4 omega,12);
+		}
+		color : $grey3;
+		text-align : right;
+		display : inline-block;
+		padding : 10px 10px;
+		i{
+			margin-right : 2px;
+		}
+
+	}
+}
+.rent span.property-price strong{
+	color : $rent;
+}
+.secondary{
+	@include span-columns(12,12);
+	@include at-breakpoint($medium){
+		@include span-columns(4 omega,12);
+	}
+	aside.widget{
+		display: block;
+		overflow : hidden;
+		@extend .def-box-shadow;
+		background-color: $white;
+		width : 100%;
+		margin-bottom : 20px;
+		padding : 10px;
+		&.accordion{
+			padding:0px;
+			.ui-accordion-header{
+				background-color: $rent;
+				color : $white;
+				padding : 15px 10px;
+				border : 0px;
+				border-bottom : 1px solid $white;
+				@include border-radius(0px);
+				&:last-child{
+					border: 0px;
+				}
+				i{
+					margin-right : 20px;
+				}
+			}
+		}
+		.avatar-wrapper{
+			@include span-columns(4 ,12);
+			img {
+				max-width : 100%;
+			}
+		}
+		.user-meta{
+			@include span-columns(8 omega,12);	
+		}
+
+
+	}
+}
+.rent aside.widget.accordion{
+
+}
+.properties{
+	h3{
+		text-align : center;
+		i{
+			margin-right : 5px;
+			font-size  : 120%;
+		}
+	}
+	div.property {
+		width : 18.4%;
+		margin-right : 2%;
+		float : left;
+		@extend .def-box-shadow;
+		background-color: $white;
+		overflow : hidden;
+		&:last-child{
+			margin-right : 0px;
+		}
+	}
+}

@@ -1,0 +1,62 @@
+.site-header{
+	width : 100%;
+	background-color: $navy;
+	div.logo-wrapper{
+		@include at-breakpoint($medium){
+			@include span-columns(6 ,12)
+		}
+		 span{
+			background-color: $navy2;
+			color : $white;
+			border-left : 32px solid $rent;
+			padding : 4px 10px;
+			display : inline-block;
+			margin-top : 15px;
+			
+			font-size : 120%;
+		}
+	}
+	nav.header-nav{
+		@include at-breakpoint($medium){
+			@include span-columns(6 omega,12)
+		}
+		font-size : 90%;
+		text-align : right;
+		ul{
+			list-style : none;
+			li{
+				@include single-transition(all ,0.3s, ease-in-out);
+				color : $white;
+				padding : 15px 8px;
+				display : inline-block;
+				border-bottom : 4px solid $navy2;
+				border-right : 1px solid $navy2;
+				cursor : pointer;
+				&:last-child{
+					border-right : 0px;
+				}
+				&:hover{
+					background-color: $navy2;
+				}
+				&.bottom-blue{
+					border-bottom-color : $blue;
+					&:hover{
+						background-color: $blue;
+					}
+				}
+				&.bottom-green{
+					border-bottom-color : $green;
+					&:hover{
+						background-color: $green;
+					}
+				}
+
+			}
+		}
+	}
+}
+.rent nav.header-nav li.rent-back{
+	background-color : $rent;
+	border-color : $rent;
+}
+				
